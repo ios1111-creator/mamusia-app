@@ -1,0 +1,24 @@
+<div class="hero-section mat-elevation-z4">
+    <h1 class="mat-display-1">Rejestracja</h1>
+
+    <form class="register-form" #registerForm="ngForm" (ngSubmit)="onRegister(registerForm)">
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" name="email" ngModel required>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Hasło</mat-label>
+            <input matInput type="password" name="password" ngModel required>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Imię dziecka</mat-label>
+            <input matInput type="text" required>
+        </mat-form-field>
+
+        <button mat-flat-button color="primary" class="register-button" type="submit">
+            Zarejestruj
+        </button>
+    </form>
+</div>
