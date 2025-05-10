@@ -1,4 +1,40 @@
-# MamusiaApp
+# 🍼 Mamusia App
+
+**Mamusia App** is a modern Angular application built for young moms to track their child's development.  
+It includes user login/registration functionality, routing, styling with Angular Material, and manual QA documentation.
+
+## 📸 Preview
+
+![Home Page Screenshot](./screenshots/home.png)
+
+## ✨ Features
+
+- Home, Login, Register, Dashboard components
+- Navigation with Angular Router
+- Styled using Angular Material
+- Manual Test Documentation
+- User Instructions
+
+## 🧪 Manual Tests
+All manual test cases are located under [`docs/manual-tests`](./docs/manual-tests)
+
+## 📘 User Guides
+User instructions for each component: [`docs/user-guides`](./docs/user-guides)
+
+## 🛠 Tech Stack
+- Angular 15
+- Angular Material
+- TypeScript
+- Git, GitHub
+- Markdown documentation
+
+## 🧾 Example Tickets (Jira-style)
+Tickets and scenarios written to simulate real QA workflow (https://pawlikaddam.atlassian.net/jira/software/projects/MAMY/boards/1))
+
+---
+
+✅ Tested manually  
+👨‍💻 Developed and tested by **Adam P.**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
