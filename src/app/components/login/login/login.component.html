@@ -11,9 +11,12 @@
             <mat-label>Hasło</mat-label>
             <input matInput type="password" name="password" ngModel required>
         </mat-form-field>
+        <div class="button-group">
+            <button mat-flat-button color="primary" class="login-button" routerLink="/">Wstecz</button>
+            <button mat-flat-button color="primary" class="login-button" type="submit">
+                Zaloguj
+            </button>
+        </div>
 
-        <button mat-flat-button color="primary" class="login-button" type="submit">
-            Zaloguj
-        </button>
     </form>
 </div>
